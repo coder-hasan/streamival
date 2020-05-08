@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/Logo/Icon/Color.svg" type="image/x-icon">
+    <title>Streamival</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6b14e980f.js"></script>
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="main">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/Logo/Mark(1).svg" class="d-inline-block align-top" alt="">
+                </a>
+            </nav>
+            <nav class="nav_fixed navbar navbar-expand-lg">
+                <div id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#">
+                                <img src="assets/images/Icons/ic-discover.svg" alt="">
+                                Discover
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="assets/images/Icons/ic-play.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="assets/images/Icons/ic-account.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                <img src="assets/images/Icons/ic-search.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="payment_process">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 payment">
+                    <h4>Payment</h4>
+                    <div class="payment_type_btn">
+                        <a class="ipay" href=""><img src="assets/images/apple-pay2.svg" alt=""></a>
+                        <a class="paypal" href=""><img src="assets/images/paypal.svg" alt=""></a>
+                    </div>
+                    <form>
+                        <a class="generate">Or enter/generate your shipping and payment details below</a>
+                        <div class="section_heading">
+                            <h3>Shipping and Billing Information</h3>
+                        </div>
+                        <div class="billing_info">
+                            <label for="">
+                                <span>Name</span>
+                                <input type="text" name="name" placeholder="Max Mustermann">
+                            </label>
+                            <label for="">
+                                <span>Email</span>
+                                <input type="text" name="email" placeholder="max@mustermann.de">
+                            </label>
+                            <label for="">
+                                <span>Address</span>
+                                <input type="text" name="address" placeholder="Domplatz 1">
+                            </label>
+                            <label for="">
+                                <span>City</span>
+                                <input type="text" name="ciry" placeholder="Cologne">
+                            </label>
+                            <label for="">
+                                <span>Postal code</span>
+                                <input type="text" name="postal" placeholder="50823">
+                            </label>
+                            <label for="">
+                                <span>Country</span>
+                                <div id="country">
+                                    <select name="country">
+                                      <option value="AU">Australia</option>
+                                      <option value="AT">Austria</option>
+                                      <option value="BE">Belgium</option>
+                                      <option value="BR">Brazil</option>
+                                      <option value="CA">Canada</option>
+                                      <option value="CN">China</option>
+                                      <option value="DK">Denmark</option>
+                                      <option value="FI">Finland</option>
+                                      <option value="FR">France</option>
+                                      <option value="DE" selected="selected">Germany</option>
+                                      <option value="HK">Hong Kong</option>
+                                      <option value="IE">Ireland</option>
+                                      <option value="IT">Italy</option>
+                                      <option value="JP">Japan</option>
+                                      <option value="LU">Luxembourg</option>
+                                      <option value="MY">Malaysia</option>
+                                      <option value="MX">Mexico</option>
+                                      <option value="NL">Netherlands</option>
+                                      <option value="NZ">New Zealand</option>
+                                      <option value="NO">Norway</option>
+                                      <option value="PT">Portugal</option>
+                                      <option value="SG">Singapore</option>
+                                      <option value="ES">Spain</option>
+                                      <option value="SE">Sweden</option>
+                                      <option value="CH">Switzerland</option>
+                                      <option value="GB">United Kingdom</option>
+                                      <option value="US">United States</option>
+                                    </select>
+                                  </div>
+                            </label>
+                        </div>
+                        <p><img src="assets/images/Icons/ic-info.svg" alt="">Select another country to see different payment options</p>
+                        <div class="section_heading">
+                            <h3>Payment Information</h3>
+                        </div>
+                        <div class="information_details">
+                            <div class="tabs">
+                                <a class="active" href="">CARD</a>
+                                <a href="">GIROPAY</a>
+                                <a href="">SEPA DIRECT DEBIT</a>
+                                <a href="">SOFORT</a>
+                            </div>
+                            <div class="tabs_details">
+                                <div class="billing_info">
+                                    <label for="">
+                                        <span>Name</span>
+                                        <div class="element">
+                                            <div class="card_number">
+                                                <img src="assets/images/ic-card.svg" alt="">
+                                                <input type="text" placeholder="Card Number">
+                                            </div>
+                                            <input type="text" placeholder="MM/YY">
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="get_access" href="">
+                            <span>Pay 5.99 €</span>
+                        </a>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="order_summary">
+                        <h4>Order Summary</h4>
+                        <div class="single_summary">
+                            <div class="single_summary_info">
+                                <div class="summary_img">
+                                    <img src="assets/images/image-scooter-small.png" alt="">
+                                </div>
+                                <div class="summary_details">
+                                    <h3>Scooter</h3>
+                                    <h5>I want youto stream</h5>
+                                    <p>Pre-Recorded Performance <a href="">
+                                        <img src="assets/images/ic-help.svg" alt="">
+                                    </a></p>
+                                </div>
+                            </div>
+                            <p>1x 5.99 € <span>5.99 €</span></p>
+                        </div>
+                        <div class="total">
+                            <p>Total</p>
+                            <p>5.99 €</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer_body">
+                <div class="row">
+                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/Logo/Icon/Color.svg" alt="">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <ul>
+                            <li><a href="#">Functions</a></li>
+                            <li><a href="#">Discover</a></li>
+                            <li><a href="#">Schedule</a></li>
+                            <li><a href="#">Search</a></li>
+                            <li><a href="#">Account</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Public Relations</a></li>
+                            <li><a href="#">Partnership</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6 gap">
+                        <ul>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Data Privacy Statement</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Imprint</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
